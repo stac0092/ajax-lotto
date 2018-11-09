@@ -23,6 +23,7 @@ function addEventListeners() {
         pages[1].classList.toggle("active");
     });
     document.getElementById("btnSend").addEventListener("click", getNumbers);
+    document.getElementById("btnBack").addEventListener("click", resetLotto);
 }
 
 
