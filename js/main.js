@@ -60,3 +60,7 @@ function getNumbers() {
             alert("Error: " + error.message);
         });
 }
+
+function resetLotto(){
+    document.querySelector(".num_list").innerHTML = "";
+}
