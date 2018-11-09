@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 16px;
+    font-family: Karla, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: hsl(0, 0%, 30%);
+}
+
+h1 {
+    color: RGB(242, 211, 136);
+    text-align: center;
+    margin: 3rem;
+}
+
+.formBox {
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+}
+
+#btnSend {
+    padding: 10px;
+    font-size: 12px;
+    background-color: rgb(245, 245, 245);
+}
+
+#btnBack {
+    margin: auto;
+    display: block;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 30px;
+
+}
+
+.page {
+    display: none;
+    padding: 2em;
+}
+
+.active {
+    display: block;
+}
+
+@media (max-width: 599px) {
+    header {
+        text-align: center;
+        font-size: 22px;
+        border-bottom: solid RGB(167, 210, 203) 0.5rem;
+    }
+
+    li {
+
+        text-align: center;
+        display: inline-block;
+        margin: 20px;
+        list-style: none;
+        background-color: rgb(245, 245, 245);
+        border-radius: 30%;
+        font-size: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+
+    }
+}
+
+@media (min-width: 600px) and (max-width:999px) {
+    header {
+        text-align: center;
+        font-size: 21px;
+        border-bottom: solid RGB(201, 132, 116) 0.5rem;
+    }
+
+    h1 {
+        color: RGB(242, 211, 136);
+    }
+
+    li {
+        text-align: center;
+        display: inline-block;
+        margin-left: 3rem;
+        margin-top: 3rem;
+        list-style: none;
+        background-color: rgb(245, 245, 245);
+        border-radius: 50%;
+        line-height: 3rem;
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    header {
+        text-align: center;
+        font-size: 29px;
+        border-bottom: solid RGB(135, 76, 98) 0.5rem;
+    }
+
+    li {
+        text-align: center;
+        display: inline-block;
+        margin-left: 3.5rem;
+        margin-top: 3.5rem;
+        list-style: none;
+        background-color: rgb(245, 245, 245);
+        border-radius: 50%;
+        line-height: 3.5rem;
+        font-size: 2.5rem;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+    }
+}
